@@ -11,7 +11,6 @@ int main(int argc, char** argv)
 	int a = 5;
 	HZ_INFO("Variable Test: Var={0}", a);
 
-	printf("Hazel Engine \n");
 	auto app = Hazel::CreateApplication();
 	app->Run();
 	delete app;
