@@ -37,6 +37,7 @@ namespace Hazel {
 		static Application* s_Instance;
 	};
 
+	// Implemented by Client
 	Application* CreateApplication();
 
 }
